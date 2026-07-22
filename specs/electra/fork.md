@@ -7,6 +7,7 @@
 - [Fork to Electra](#fork-to-electra)
   - [Fork trigger](#fork-trigger)
   - [Upgrading the state](#upgrading-the-state)
+- [Withdrawal Credentials](#withdrawal-credentials)
 
 <!-- mdformat-toc end -->
 
@@ -141,3 +142,9 @@ def upgrade_to_electra(pre: deneb.BeaconState) -> BeaconState:
 
     return post
 ```
+
+## Withdrawal Credentials
+
+| Address                                    | Description                           |
+| ------------------------------------------ | ------------------------------------- |
+| `0x72aB25295bD69e4052f6deb3a06e6377898Bb384` | Execution-layer withdrawal address    |
